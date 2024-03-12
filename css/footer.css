@@ -1,0 +1,163 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #1D1E20;
+}
+
+#f_contentArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.f_sec {
+    display: flex;
+    width: 100%;
+}
+
+/* F SEC 1 */
+#f_sec1 {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.f_sec1Item {
+    width: 11.42rem;
+    height: 3.71rem;
+}
+
+#f_sec1Item1 {
+    background: url("/img/partner1.png") no-repeat center center / cover;
+}
+#f_sec1Item2 {
+    width: 10.42rem;
+    height: 2.57rem;
+    background: url("/img/partner2.png") no-repeat center center / cover;
+}
+#f_sec1Item3 {
+    width: 10.42rem;
+    height: 2.57rem;
+    background: url("/img/partner2.png") no-repeat center center / cover;
+}
+#f_sec1Item4 {
+    background: url("/img/partner1.png") no-repeat center center / cover;
+}
+#f_sec1Item5 {
+    background: url("/img/partner1.png") no-repeat center center / cover;
+}
+
+/* F SEC 2 */
+#f_sec2 {
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 3rem 0;
+}
+
+.f_sec2_half {
+    display: flex;
+    width: 50%;
+}
+
+#f_sec2_right_half {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f_logo_box {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.f_logo {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.71rem;
+    cursor: pointer;
+}
+
+.f_phoneBoxLine {
+    display: flex;
+}
+
+.f_phoneIcon {
+    width: 1.42rem;
+    height: 1.42rem;
+    background: url(/img/f_phoneIcon.svg) no-repeat center center / cover;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.f_phoneIcon:hover {
+    animation: f_phoneIconAnim 0.3s ease-in-out;
+}
+
+@keyframes f_phoneIconAnim {
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.f_phone {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.f_phone:hover {
+    color: #ffd028;
+    transition: 0.3s ease-in-out;
+}
+
+.f_workTime {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.f_socialBox {
+    display: flex;
+}
+
+.f_socialIcon {
+    width: 1.71rem;
+    height: 1.71rem;
+}
+
+.f_socialIcon:hover path {
+    transition: 0.1s ease-in-out;
+    opacity: 1;
+}
+
+#f_socialIconWU {
+    margin-left: 2rem;
+}
+
+/* F SEC 3 */
+#f_sec3 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.f_copyrightText {
+    margin-top: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}

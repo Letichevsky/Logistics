@@ -1,0 +1,287 @@
+
+@media screen and (max-width: 1550px) {
+    .sec4_line {
+        width: 50vw;
+        margin-left: -7rem;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .sec4_line {
+        width: 50vw;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #sec1_contentArea {
+        background: linear-gradient(180deg, #282A2D 0%, #1D1E20 90.77%);
+        padding: 0;
+    }
+    #spacerSection1 {
+        background: url("/img/trucksTablet.png") no-repeat center center / cover;
+        width: 100%;
+        height: 80vw;
+        margin-top: -20rem;
+    }
+    .firstText {
+        margin-bottom: none;
+        margin: 1rem 1rem 2rem 1rem;
+    }
+    .secondText {
+        margin-bottom: none;
+        margin: 1rem 1rem 3rem 1rem;   
+    }
+}
+
+
+@media screen and (max-width: 1049px) {
+    #sec4_imgHalf {
+        display: none;
+    }
+
+    .sec4_sectionHalf {
+        width: 100%;
+    }
+
+    #sec4_sectionHalf4 {
+        padding: 0;
+    }
+
+    .sec4_section {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+    #sec5_contentArea {
+        justify-content: center;
+    }
+
+    .formBody {
+        width: 95vw;
+    }
+
+    .f_sec1Item {
+        margin: 1rem;
+    }
+    #f_sec1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 937px) {
+    #spacerSection1 {
+        height: 80vw;
+        margin-top: -20rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #spacerSection1 {
+        height: 27rem;
+    }
+
+    #f_sec1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    #sec2_contentArea {
+        min-width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .sec2_item {
+        min-width: 13rem;
+        margin: 0 1rem;
+    }
+
+    .card::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+@media screen and (max-width: 820px) {
+    #spacerSection1 {
+        height: 80vw;
+        margin-top: -10rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .firstText {
+        font-size: 2.57rem;
+    }
+    .secondText {
+        font-size: 1.42rem;
+    }
+    #spacerHeader {
+        height: 3.5rem;
+    }
+
+    .sec3_counterBox {
+        flex-direction: column;
+    }
+    .sec3_counterItem {
+        margin-bottom: 3rem;
+    }
+    .formBody {
+        padding: 4rem 1rem 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    .mailPhoneBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fromToBox {
+        display: flex;
+        flex-direction: column;
+        /*
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+
+        grid-template-areas: 
+        
+        'f f f a'
+        't t t a'
+        
+        ; */
+    }
+
+    #from {
+        /* grid-area: f; */
+    }
+
+    #to {
+        /* grid-area: t; */
+    }
+
+    .fromArrow {
+        /* grid-area: a; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #formArrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #spacerSection1 {
+        margin-top: -5rem;
+    }
+
+    #sec4_imgHalf {
+        display: block;
+        width: 100%;
+    }
+
+    .sec4_sectionHalf {
+        width: 100%;
+    }
+
+    #sec4_sectionHalf4 {
+        padding: 0;
+    }
+
+    .sec4_section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec4_photo {
+        margin-left: 0;
+    }
+      
+    #sec4_photo1 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    #sec4_photo2 {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .sec4_line {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    #sec4_section1, #sec4_section3 {
+        flex-direction: column-reverse;
+    }
+    #sec4_contentArea {
+        padding: 7rem 1rem 1rem 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .f_sec1Item {
+        width: 8.56rem;
+        height: 2.78rem;
+    }
+
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .navBox {
+        display: none;
+    }
+
+    #mob_navBox {
+        display: block;
+    }
+
+    #h_right_half {
+        display: none;
+    }
+
+    #h_mob_middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #h_mob_right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    /* FOOTER */
+    #f_sec1 {
+        flex-wrap: wrap;
+    }
+
+    #f_sec2_left_half {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f_logo_box {
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 590px) {
+    .mob_nav_bg {
+        display: none;
+    }
+}

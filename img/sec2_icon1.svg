@@ -1,0 +1,13 @@
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="54" cy="54" r="37" fill="white" stroke="#DEDDDD"/>
+<circle opacity="0.5" cx="46.5" cy="46.5" r="46" transform="matrix(1 0 0 -1 7.5 100.5)" stroke="#DEDDDD"/>
+<circle opacity="0.2" cx="54" cy="54" r="53.5" transform="matrix(1 0 0 -1 0 108)" stroke="#DEDDDD"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54 72.1905C54 72.1905 54 72.1905 54 72.1905C63.4941 72.1905 71.1905 64.494 71.1905 55C71.1905 45.506 63.4941 37.8095 54 37.8095C54 37.8095 54 37.8095 54 37.8095V72.1905Z" fill="#FCAE1A"/>
+<circle opacity="0.7" cx="54" cy="55" r="18.5" stroke="#1B1D20"/>
+<circle cx="54.0004" cy="55" r="17.0385" stroke="white"/>
+<path d="M48.1543 54.2692L52.5389 58.6538L60.5774 50.6154" stroke="#1B1D20"/>
+<path d="M54.7305 40.3846V37.4615" stroke="#1B1D20"/>
+<path d="M54.7305 72.5385V69.6154" stroke="#1B1D20"/>
+<path d="M68.616 56.4615L71.5391 56.4615" stroke="#1B1D20"/>
+<path d="M36.4617 56.4615L39.3848 56.4615" stroke="#1B1D20"/>
+</svg>

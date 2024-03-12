@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Mukta:wght@700&family=Poppins&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+ul,
+li,
+a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.contentArea {
+  width: 100%;
+  height: 100%;
+  max-width: 1196px;
+}
+
+.navLink {
+  color: #fff;
+  opacity: 0.7;
+}
+
+
+/* BODY STYLE */
+#spacerHeader {
+  height: 5rem;
+}
+
+/* SECTION 1 TRUCKS */
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#section1 {
+  background: linear-gradient(180deg, #282A2D 0%, #1D1E20 90.77%);
+}
+
+#sec1_contentArea {
+  background: url(/img/trucks.png) no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.firstText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.71rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  cursor: default;
+  text-align: center;
+}
+
+.secondText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 3rem;
+  cursor: default;
+  text-align: center;
+}
+
+.sec1_button {
+  width: 16.21rem;
+  height: 4rem;
+  background: #F8C719;
+  box-shadow: 0px 4px 20px rgba(130, 101, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in-out;
+}
+
+.sec1_button:hover {
+  background: #FFD028;
+  box-shadow: 0px 4px 20px rgba(130, 101, 0, 0.2);
+  cursor: pointer;
+}
+
+.sec1_button_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #231F20;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#spacerSection1 {
+  height: 50vh;
+}
+
+
+/* SECTION 2 ADVANTAGES */
+#section2 {
+  background: #F3F3F3;
+}
+
+#sec2_contentArea {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.sec2_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 13rem;
+  max-width: 13rem;
+}
+
+.sec2_itemIcon {
+  width: 108px;
+  height: 108px;
+}
+
+#sec2_itemIcon1 {
+  background: url(/img/sec2_icon1.svg) no-repeat center center / cover;
+}
+#sec2_itemIcon2 {
+  background: url(/img/sec2_icon2.svg) no-repeat center center / cover;
+}
+#sec2_itemIcon3 {
+  background: url(/img/sec2_icon3.svg) no-repeat center center / cover;
+}
+#sec2_itemIcon4 {
+  background: url(/img/sec2_icon4.svg) no-repeat center center / cover;
+}
+
+.sec2_itemText1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.14rem;
+  text-align: center;
+  color: #1B1D20;
+}
+.sec2_itemText2 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.14rem;
+text-align: center;
+color: #1b1d20b7;
+}
+
+/* SECTION 3 MAP */
+#section3 {
+  background: #fff;
+}
+
+#sec3_contentArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 1rem;
+}
+
+.sec3_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.14rem;
+  text-align: center;
+  color: #242628;
+  margin: 0 0 1rem 0;
+}
+.sec3_subTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.28rem;
+  text-align: center;
+  color: #242628;
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+.sec3_map {
+  /* background: url(/img/map.png) no-repeat center center / cover; */
+  /* width: 57.42rem; */
+  /* height: 30.85rem; */
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.sec3_counterBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec3_counterText1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.28rem;
+  text-align: center;
+  color: #1D1E20;
+  margin-bottom: 0.5rem;
+}
+.sec3_counterText2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.14rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #F8C719;
+  margin-bottom: 0.5rem;
+}
+.sec3_counterText3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.14rem;
+  text-align: center;
+  color: #27292C;
+  opacity: 0.7;
+}
+
+
+/* SECTION 4 SERVICE */
+#section4 {
+  background: linear-gradient(180deg, #282A2D 0%, #1D1E20 90.77%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#sec4_contentArea {
+  padding: 7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec4_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.14rem;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5rem;
+}
+
+.sec4_section {
+  display: flex;
+  margin-bottom: 7rem;
+}
+
+.sec4_sectionHalf {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#sec4_sectionHalf4 {
+  padding-left: 5rem;
+}
+
+.sec4_text1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.14rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #3974BC;
+  margin-bottom: 1rem;
+}
+.sec4_text2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.28rem;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+}
+.sec4_text3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.14rem;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-bottom: 5rem;
+}
+.sec4_text4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.14rem;
+  text-transform: capitalize;
+  color: #CCCCCC;
+  opacity: 0.8;
+}
+.sec4_text5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.14rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #CCCCCC;
+  opacity: 0.4;
+  margin: 2rem 0 7rem 0;
+}
+
+.sec4_button {
+  width: 14.78rem;
+  height: 4rem;
+  background: #F8C719;
+  box-shadow: 0px 4px 20px rgba(130, 101, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec4_button:hover {
+  background: #FFD028;
+  box-shadow: 0px 4px 20px rgba(130, 101, 0, 0.2);
+  cursor: pointer;
+}
+
+.sec4_buttonText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #231F20;
+  cursor: pointer;
+}
+
+.sec4_photo {
+  margin-left: 1rem;
+}
+
+#sec4_photo1 {
+  width: 30.53rem;
+}
+#sec4_photo2 {
+  width: 30.48rem;
+}
+
+.sec4_line {
+  width: 51.16rem;
+  margin-left: -12rem;
+}
+
+.sec4_listBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sec4_listIcon {
+  width: 2.14rem;
+  height: 2.14rem;
+  background: url(/img/sec4_icon.svg) no-repeat center center / cover;
+}
+
+.sec4_listText {
+  margin-left: 2rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.14rem;
+  text-transform: capitalize;
+  color: #CCCCCC;
+  opacity: 0.8;
+}
+
+
+
+
+/* SECTION 5 MAIL */
+#section5 {
+  background: url(/img/sec5_bg.jpg) no-repeat center left / cover;
+}
+
+#sec5_contentArea {
+  padding: 7rem 1rem;
+}
+
+.formBody {
+  background: #fff;
+  padding: 4rem 4rem 2rem 4rem;
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.14rem;
+  text-align: center;
+  color: #242628;
+  margin-bottom: 4rem;
+}
+
+label, .formLastText {
+  width: 100%;
+  text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.28rem;
+  text-transform: uppercase;
+
+  color: #242628;
+
+  opacity: 0.8;
+}
+
+.formLastText {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 0.92rem;
+color: #242628;
+opacity: 0.7;
+text-transform: none;
+}
+
+input, textarea {
+  width: 100%;
+  height: 3.85rem;
+  background: #F3F3F3;
+  border: 1px solid #FFFFFF;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.mailPhoneBox {
+  width: 100%;
+  display: flex;
+}
+
+#email {
+  margin-right: 2.8rem;
+}
+
+.fromToBox {
+  align-items: center;
+}
+
+.formArrow {
+  margin: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#about, #comment {
+  height: 8rem;
+  width: 100%;
+  resize: none;
+  padding: 1rem;
+}
+
+.checkboxBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.checkbox {
+  padding: auto;
+  margin-bottom: none;
+
+  width: 1.28rem;
+  height: 1.28rem;
+  background-color: #F3F3F3;
+  border: 1px solid #E1E1E1;
+  margin-right: 1rem;
+}
+
+.btn_submit {
+  width: 13.92rem;
+  height: 4.28rem;
+  background: #3974BC;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.2);
+  margin: 2rem 0;
+  border: none;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn_submit:hover {
+  background: #3C7AC6;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.2);
+  cursor: pointer;
+}
+
+/* THANKS FORM */
+.blackBack {
+  display: none;
+}
+
+.blackBack.active {
+  display: block;
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.thanksBody {
+  z-index: 101;
+  width: 90%;
+  height: min-content;
+  max-width: 60rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem 3rem 1rem;
+  animation: thanksFormAnim 0.5s ease-in-out;
+}
+
+@keyframes thanksFormAnim {
+  0% {
+    opacity: 0;
+    margin-top: 10rem;
+  }
+
+  60% {
+    margin-top: -3rem;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: none;
+  }
+  
+}
+
+.thanksXBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.thanksX {
+  width: 1.64rem;
+  height: 1.64rem;
+  background: url("/img/thanksX.svg") no-repeat center center / cover;
+  cursor: pointer;
+}
+
+.thanksImg {
+  max-width: 20rem;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.thanksTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.28rem;
+  text-align: center;
+  color: #242628;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+.thanksSubTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #242628;
+  opacity: 0.7;
+  margin-bottom: 3rem;
+  cursor: default;
+}
+
+
+
+
+
+
